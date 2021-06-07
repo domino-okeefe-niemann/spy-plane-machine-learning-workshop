@@ -29,5 +29,4 @@ models using the domino stats features in the Jobs overview page.
 The Intro-to-ML-Reference.pdf is a reference guide to many of the functions
 needed for the intractive exercises. 
 
-The Overview of Machine Learning.pdf contains the slides for the lecture portion 
-of the workshop. 
+Note that the hyperparameter tuning contest will not work outside of live Domino workshops unless you set up your own S3 bucket or other storage option. 
