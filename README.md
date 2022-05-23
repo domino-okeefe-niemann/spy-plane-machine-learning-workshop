@@ -30,3 +30,50 @@ The Intro-to-ML-Reference.pdf is a reference guide to many of the functions
 needed for the intractive exercises. 
 
 Note that the hyperparameter tuning contest will not work outside of live Domino workshops unless you set up your own S3 bucket or other storage option. 
+
+## Dependencies
+When copying this project onto a new Domino instance, it may be necessary to adjust
+the Compute Environment.
+The following Domino-provided base image contains all dependencies for this project:
+`quay.io/domino/base:Ubuntu18_DAD_Py3.6_R3.6_20190918`.
+
+These are the Pluggable Workspace settings for this base image:
+```
+jupyter:
+  title: "Jupyter (Python, R, Julia)"
+  iconUrl: "/assets/images/workspace-logos/Jupyter.svg"
+  start: [ "/var/opt/workspaces/jupyter/start" ]
+  httpProxy:
+    port: 8888
+    rewrite: false
+    internalPath: "/{{ownerUsername}}/{{projectName}}/{{sessionPathComponent}}/{{runId}}/{{#if pathToOpen}}tree/{{pathToOpen}}{{/if}}"
+    requireSubdomain: false
+  supportedFileExtensions: [ ".ipynb" ]
+jupyterlab:
+  title: "JupyterLab"
+  iconUrl: "/assets/images/workspace-logos/jupyterlab.svg"
+  start: [  /var/opt/workspaces/Jupyterlab/start.sh ]
+  httpProxy:
+    internalPath: "/{{ownerUsername}}/{{projectName}}/{{sessionPathComponent}}/{{runId}}/{{#if pathToOpen}}tree/{{pathToOpen}}{{/if}}"
+    port: 8888
+    rewrite: false
+    requireSubdomain: false
+vscode:
+ title: "vscode"
+ iconUrl: "/assets/images/workspace-logos/vscode.svg"
+ start: [ "/var/opt/workspaces/vscode/start" ]
+ httpProxy:
+    port: 8888
+    requireSubdomain: false
+rstudio:
+  title: "RStudio"
+  iconUrl: "/assets/images/workspace-logos/Rstudio.svg"
+  start: [ "/var/opt/workspaces/rstudio/start" ]
+  httpProxy:
+    port: 8888
+    requireSubdomain: false
+```
+
+See the [Domino documentation](https://docs.dominodatalab.com/en/latest/user_guide/f51038/environment-management/)
+for more details about managing compute environments.
+Additional package installations may be required if using other base images.
