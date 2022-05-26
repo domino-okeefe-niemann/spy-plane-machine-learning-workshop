@@ -54,8 +54,8 @@ app.css.append_css({
 })
 
 #read in data
-spy_candidates = pd.read_csv("/mnt/data/new_flight_spy_candidates.csv")
-flight_paths = pd.read_csv("/mnt/data/flight_path_data.csv")
+spy_candidates = pd.read_csv("/mnt/data/spyplane-data/pregenerated_new_flight_spy_candidates.csv")
+flight_paths = pd.read_csv("/mnt/data/large-spyplane-data/flight_path_data.csv")
 
 #format data for dropdown menu (i.e. plane IDs)
 plane_ids = spy_candidates['adshex'].unique()

@@ -1,0 +1,7 @@
+,integers_col,timestamps_col,floats_col,ints_from_array,categories_col,strings_col,calculated_data_col
+0,1,2013-01-02,1.0,3,test,foo,3.0
+1,6,2022-05-25,1.0,3,train,foo,18.0
+2,2,2013-01-02,1.0,3,test,foo,6.0
+3,9,2022-05-25,1.0,3,train,foo,27.0
+4,10,2013-01-02,1.0,3,train,foo,30.0
+5,12,2022-05-25,1.0,3,train,foo,36.0

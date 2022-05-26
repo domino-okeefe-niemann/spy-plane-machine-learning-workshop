@@ -1,5 +1,5 @@
 #uncomment to run normal app looking at spy plane histograms
-python app.py
+#python app.py
 
 #uncomment to run flight tracker app
-#python app-flight-path.py
+python app-flight-path.py

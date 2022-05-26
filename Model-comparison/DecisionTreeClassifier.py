@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
 #read in data
-planes_labeled = pd.read_csv("/mnt/data/planes_labeled.csv")
+planes_labeled = pd.read_csv("/mnt/data/spyplane-data/pregenerated_planes_labeled.csv")
 
 #format data by removing non-numeric columnns and factorize the class
 X = planes_labeled.drop(['adshex','class', 'type'], axis = 1)

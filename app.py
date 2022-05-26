@@ -51,8 +51,8 @@ app.config.update({
 })
 
 #read in data
-feds_data = pd.read_csv('/mnt/data/feds_data.csv')
-spy_candidates = pd.read_csv("/mnt/data/spy_candidates.csv")
+feds_data = pd.read_csv('/mnt/data/spyplane-data/pregenerated_feds_data.csv')
+spy_candidates = pd.read_csv("/mnt/data/spyplane-data/pregenerated_spy_candidates.csv")
 
 #format data for dropdown menu (i.e. plane IDs)
 planes = spy_candidates['adshex']
