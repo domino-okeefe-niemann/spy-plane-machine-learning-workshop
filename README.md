@@ -1,3 +1,25 @@
+## Agenda
+
+Home Directory: /repos/spy-plane-machine-learning-workshop/
+
+(15 min) Intro/Access
+
+(20 min) Motivation
+
+(1.5 hr) Presentation: Data Acquisition, Preparation
+         Hands On: Hands_On_Notebooks/1-SpyPlane-DataCleaning-Unsolved.ipynb
+
+(15 min) Break
+
+(1.5 hr) Presentation: Model Experimentation
+         Hands On: Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb
+         Presentation: Model Evaluation
+         Hands On: Hands_On_Notebooks/3-SpyPlane-EvaluatingModels-Unsolved.ipynb
+                   
+         (If Time Permits) Hyperparameter Tuning (Hands On): /misc_files/Spy-Plane-Project/4-SpyPlane-OptimizingModels-Unsolved.ipynb
+        * NOTE: You may have to change the path for data or else broken upload errors will appear. Refer to previous notebooks to identify appropriate relevant path.
+(10 min) Q&A
+
 ## Background
 This notebook contains materials for the Introduction to Machine Learning workshop. 
 
