@@ -1,3 +1,5 @@
+[Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb](Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb)
+
 ## Agenda
 When setting up the project on the Domino instance, import the github repo after creating a local domino project. This will allow users to fork the project and follow along.
 
