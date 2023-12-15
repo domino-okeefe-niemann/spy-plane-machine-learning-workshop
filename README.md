@@ -1,31 +1,34 @@
-[Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb](Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb)
-
 ## Agenda
-When setting up the project on the Domino instance, import the github repo after creating a local domino project. This will allow users to fork the project and follow along.
 
-Home Directory: /repos/spy-plane-machine-learning-workshop/
+### Intro/Access
+- **Duration:** 15 minutes
 
-(15 min) Intro/Access
+### Motivation
+- **Duration:** 20 minutes
 
-(20 min) Motivation
+### Presentation: Data Acquisition, Preparation
+- **Duration:** 1.5 hours
+- **Hands On:** 
+  - [Hands_On_Notebooks/1-SpyPlane-DataCleaning-Unsolved.ipynb](Hands_On_Notebooks/1-SpyPlane-DataCleaning-Unsolved.ipynb)
 
-(1.5 hr) Presentation: Data Acquisition, Preparation
+### Break
+- **Duration:** 15 minutes
 
-         Hands On: Hands_On_Notebooks/1-SpyPlane-DataCleaning-Unsolved.ipynb
+### Presentation: Model Experimentation
+- **Duration:** 1.5 hours
+- **Details:**
+  - **Hands On:** 
+    - [Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb](Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb)
+  - **Presentation:** Model Evaluation
+  - **Hands On:** 
+    - [Hands_On_Notebooks/3-SpyPlane-EvaluatingModels-Unsolved.ipynb](Hands_On_Notebooks/3-SpyPlane-EvaluatingModels-Unsolved.ipynb)
+  - **If Time Permits:** Hyperparameter Tuning (Hands On)
+    - [misc_files/Spy-Plane-Project/4-SpyPlane-OptimizingModels-Unsolved.ipynb](misc_files/Spy-Plane-Project/4-SpyPlane-OptimizingModels-Unsolved.ipynb)
+    - *NOTE: You may have to change the path for data or else broken upload errors will appear. Refer to previous notebooks to identify appropriate relevant path.*
 
-(15 min) Break
+### Q&A
+- **Duration:** 10 minutes
 
-(1.5 hr) Presentation: Model Experimentation
-
-         Hands On: Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb
-         
-         Presentation: Model Evaluation
-         
-         Hands On: Hands_On_Notebooks/3-SpyPlane-EvaluatingModels-Unsolved.ipynb
-                   
-         (If Time Permits) Hyperparameter Tuning (Hands On): /misc_files/Spy-Plane-Project/4-SpyPlane-OptimizingModels-Unsolved.ipynb
-        * NOTE: You may have to change the path for data or else broken upload errors will appear. Refer to previous notebooks to identify appropriate relevant path.
-(10 min) Q&A
 
 ## Background
 This notebook contains materials for the Introduction to Machine Learning workshop. 
