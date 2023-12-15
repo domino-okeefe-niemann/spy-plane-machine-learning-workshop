@@ -1,4 +1,4 @@
-## Agenda
+## Agenda (3 Hour Workshop)
 
 ### Intro/Access
 - **Duration:** 15 minutes
