@@ -3,31 +3,38 @@
 ### Intro/Access
 - **Duration:** 15 minutes
 
+
 ### Motivation
 - **Duration:** 20 minutes
+
 
 ### Presentation: Data Acquisition, Preparation
 - **Duration:** 1.5 hours
 - **Hands On:** 
   - [Hands_On_Notebooks/1-SpyPlane-DataCleaning-Unsolved.ipynb](Hands_On_Notebooks/1-SpyPlane-DataCleaning-Unsolved.ipynb)
 
+
 ### Break
 - **Duration:** 15 minutes
+
 
 ### Presentation: Model Experimentation
 - **Duration:** 45 minutes
 - **Hands On:** 
     - [Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb](Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb)
 
+
 ### Presentation: Model Evaluation
 - **Duration:** 45 minutes
 - **Hands On:** 
     - [Hands_On_Notebooks/3-SpyPlane-EvaluatingModels-Unsolved.ipynb](Hands_On_Notebooks/3-SpyPlane-EvaluatingModels-Unsolved.ipynb)
 
+
 ### If Time Permits: Hyperparameter Tuning
 - **Hands On:** 
     - [misc_files/Spy-Plane-Project/4-SpyPlane-OptimizingModels-Unsolved.ipynb](misc_files/Spy-Plane-Project/4-SpyPlane-OptimizingModels-Unsolved.ipynb)
       - *NOTE: You may have to change the path for data or else broken upload errors will appear. Refer to previous notebooks to identify appropriate relevant path.*
+
 
 ### Q&A
 - **Duration:** 10 minutes
