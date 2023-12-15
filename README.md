@@ -24,7 +24,7 @@
 - **Hands On:** 
     - [Hands_On_Notebooks/3-SpyPlane-EvaluatingModels-Unsolved.ipynb](Hands_On_Notebooks/3-SpyPlane-EvaluatingModels-Unsolved.ipynb)
 
-### If Time Permits:** Hyperparameter Tuning
+### If Time Permits: Hyperparameter Tuning
 - **Hands On:** 
     - [misc_files/Spy-Plane-Project/4-SpyPlane-OptimizingModels-Unsolved.ipynb](misc_files/Spy-Plane-Project/4-SpyPlane-OptimizingModels-Unsolved.ipynb)
       - *NOTE: You may have to change the path for data or else broken upload errors will appear. Refer to previous notebooks to identify appropriate relevant path.*
