@@ -1,4 +1,5 @@
 ## Agenda
+When setting up the project on the Domino instance, import the github repo after creating a local domino project. This will allow users to fork the project and follow along.
 
 Home Directory: /repos/spy-plane-machine-learning-workshop/
 
