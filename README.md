@@ -7,14 +7,18 @@ Home Directory: /repos/spy-plane-machine-learning-workshop/
 
 (20 min) Motivation
 
-(1.5 hr) Presentation: Data Acquisition, Preparation \n
+(1.5 hr) Presentation: Data Acquisition, Preparation
+
          Hands On: Hands_On_Notebooks/1-SpyPlane-DataCleaning-Unsolved.ipynb
 
 (15 min) Break
 
 (1.5 hr) Presentation: Model Experimentation
+
          Hands On: Hands_On_Notebooks/2-SpyPlane-RandomForestClassifier-Unsolved.ipynb
+         
          Presentation: Model Evaluation
+         
          Hands On: Hands_On_Notebooks/3-SpyPlane-EvaluatingModels-Unsolved.ipynb
                    
          (If Time Permits) Hyperparameter Tuning (Hands On): /misc_files/Spy-Plane-Project/4-SpyPlane-OptimizingModels-Unsolved.ipynb
