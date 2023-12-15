@@ -7,7 +7,7 @@ Home Directory: /repos/spy-plane-machine-learning-workshop/
 
 (20 min) Motivation
 
-(1.5 hr) Presentation: Data Acquisition, Preparation
+(1.5 hr) Presentation: Data Acquisition, Preparation \n
          Hands On: Hands_On_Notebooks/1-SpyPlane-DataCleaning-Unsolved.ipynb
 
 (15 min) Break
